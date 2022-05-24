@@ -5,7 +5,7 @@ function App() {
   return (
     <>
 
-    <div className="flex bg-gray-100 h-20 items-center justify-between p-5 border-b-2 font-bold border-[tomato] ">
+    <div className="flex max-w-screen-2xl mx-auto bg-gray-100 h-20 items-center justify-between p-5 border-b-2 font-bold border-[tomato] ">
   <div className='lg:w-[20%]  lg:h-20 lg:border-r-2 flex items-center justify-end lg:p-10  border-[tomato] '>
     <img  src='../img/Group 39790.png' alt=''/>
   </div>
@@ -33,7 +33,7 @@ function App() {
 
 {/* section-2 */}
  
-<div className='w-[90%] border-l-2  lg:flex border-[tomato]  mx-auto bg-[tomato] h-auto lg:h-[550px]'>
+<div className='w-[90%] border-l-2 max-w-screen-2xl mx-auto lg:flex border-[tomato]  mx-auto bg-[tomato] h-auto lg:h-[550px]'>
  <div className='h-full bg-white w-full lg:w-[60%] p-8'>
    <div className='lg:w-1/2 w-full mt-5'>
    <div className='flex items-center h-20 '>
@@ -67,7 +67,7 @@ who you are your values and your personal style.</p>
   </div>
   <img  className="" src="../img/g.png"/>
 </div>
- <div className="w-[90%]  border-2 text-center lg:flex border-[tomato] mx-auto h-auto lg:h-[150px] mb-5 ">
+ <div className="w-[90%] max-w-screen-2xl mx-auto border-2 text-center lg:flex border-[tomato] mx-auto h-auto lg:h-[150px] mb-5 ">
    <div className="w-full lg:w-[60%]   lg:flex items-center justify-between ">
      <img  className="lg:h-[150px] mx-auto lg:mx-0 p-1" src="../img/Frame 43.png"/>
      <p className="w-full lg:w-[70%] p-5 text-lg font-bold">Everyone looks at your watch and it represents who you are, your values and your personal style.</p>
