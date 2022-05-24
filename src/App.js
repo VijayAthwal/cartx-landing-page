@@ -7,22 +7,22 @@ function App() {
 
     <div className="flex max-w-screen-2xl mx-auto bg-gray-100 h-20 items-center justify-between p-5 border-b-2 font-bold border-[tomato] ">
   <div className='lg:w-[20%]  lg:h-20 lg:border-r-2 flex items-center justify-end lg:p-10  border-[tomato] '>
-    <img  src='../img/Group 39790.png' alt=''/>
+    <img className="cursor-pointer" src='../img/Group 39790.png' alt=''/>
   </div>
   <div className="w-[60%]  hidden h-20 lg:border-r-2  text-gray-400 border-[tomato] p-5 lg:flex items-center justify-between">
-    <h1>Home</h1>
-    <h1>About Us</h1>
-    <h1>Support</h1>
-    <h1>Products</h1>
+    <h1 className="cursor-pointer">Home</h1>
+    <h1 className="cursor-pointer">About Us</h1>
+    <h1 className="cursor-pointer">Support</h1>
+    <h1 className="cursor-pointer">Products</h1>
   </div>
   <div  className='w-[20%] hidden h-20 lg:flex items-center justify-evenly'>
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
 </svg>
-<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
 </svg>
   </div>
@@ -47,7 +47,7 @@ who you are your values and your personal style.</p>
 <h1  className='font-bold h-16 mt-5'>$550.00</h1>
 <div className=" hidden w-[90%] lg:flex justify-between items-center">
 <div className='border border-black md:w-[40%] w-[25%]   h-8 relative'>
-  <button className='bg-[tomato] w-full font-bold h-full animate-bounce text-sm border border-black absolute right-1 bottom-1'>Shop Now</button>
+  <button className='bg-[tomato] cursor-pointer w-full font-bold h-full animate-bounce text-sm border border-black absolute right-1 bottom-1'>Shop Now</button>
   
   </div>
   <img  className="" src="../img/g.png"/>
@@ -62,7 +62,7 @@ who you are your values and your personal style.</p>
  </div>
  <div className="w-[90%] lg:hidden flex justify-evenly items-center">
 <div className='border border-black w-[25%] h-8 relative'>
-  <button className='bg-[tomato] w-full font-bold h-full animate-bounce text-sm border border-black absolute right-1 bottom-1'>Shop Now</button>
+  <button className='bg-[tomato] cursor-pointer w-full font-bold h-full animate-bounce text-sm border border-black absolute right-1 bottom-1'>Shop Now</button>
   
   </div>
   <img  className="" src="../img/g.png"/>
