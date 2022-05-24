@@ -69,7 +69,7 @@ who you are your values and your personal style.</p>
 </div>
  <div className="w-[90%]  border-2 text-center lg:flex border-[tomato] mx-auto h-auto lg:h-[150px] mb-5 ">
    <div className="w-full lg:w-[60%]   lg:flex items-center justify-between ">
-     <img  className="lg:h-[150px] mx-auto p-1" src="../img/Frame 43.png"/>
+     <img  className="lg:h-[150px] mx-auto lg:mx-0 p-1" src="../img/Frame 43.png"/>
      <p className="w-full lg:w-[70%] p-5 text-lg font-bold">Everyone looks at your watch and it represents who you are, your values and your personal style.</p>
    </div>
    <div className="w-full lg:w-[40%] mb-5 lg:flex items-center justify-center text-4xl font-bold">
